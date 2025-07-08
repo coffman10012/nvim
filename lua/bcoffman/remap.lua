@@ -19,12 +19,14 @@ vim.g.mapleader = " "
 --     require("vim-with-me").StopVimWithMe()
 -- end)
 --
+--
 -- -- greatest remap ever
--- vim.keymap.set("x", "<leader>p", [["_dP]])
+vim.keymap.set("x", "<leader>p", [["_dP]])
+vim.keymap.set("n", "<leader>P", "\"+p")
 --
 -- -- next greatest remap ever : asbjornHaland
--- vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
--- vim.keymap.set("n", "<leader>Y", [["+Y]])
+vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
+vim.keymap.set("n", "<leader>Y", [["+Y]])
 --
 -- vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
 --
